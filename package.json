@@ -1,0 +1,25 @@
+{
+  "name": "ballot",
+  "version": "1.0.0",
+  "description": "Block-Chain based voting system",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "dev": "next dev"
+  },
+  "author": "Srikara Ranganath",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.7",
+    "fs-extra": "^10.1.0",
+    "mocha": "^9.2.2",
+    "next": "^12.1.5",
+    "next-routes": "^1.4.2",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.1.2",
+    "solc": "^0.4.17",
+    "web3": "^1.7.3"
+  }
+}
